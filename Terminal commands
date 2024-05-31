@@ -1,0 +1,8 @@
+python3 -m venv env
+source env/bin/activate
+pip install django
+django-admin startproject dj_project
+python manage.py makemigration
+python manage.py runserver
+
+
